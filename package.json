@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "homebridge-tcp",
   "version": "0.0.1",
   "description": "tcp plugin for Homebridge: https://github.com/nfarina/homebridge",
+=======
+  "name": "homebridge-matrix",
+  "version": "0.0.1",
+  "description": "HDMI Matrix plugin for Homebridge: https://github.com/nfarina/homebridge",
+>>>>>>> bedea47bf175fe6126f2ca7b8ee4d6ce5e5f2549
   "license": "ISC",
   "keywords": [
     "homebridge-plugin"
@@ -15,8 +21,16 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git://github.com/reecedantin/homebridge-tcp.git"
   },
   "dependencies": {
   }
 }
+=======
+    "url": "git://github.com/reecedantin/homebridge-matrix.git"
+  },
+  "dependencies": {
+  }
+}
+>>>>>>> bedea47bf175fe6126f2ca7b8ee4d6ce5e5f2549
