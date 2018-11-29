@@ -1,21 +1,23 @@
 {
   "bridge": {
     "name": "Homebridge",
-    "username": "CD:22:3D:E3:CE:30",
+    "username": "11:11:11:11:11:11",
     "port": 51826,
-    "pin": "031-45-154"
+    "pin": "111-11-111"
   },
 
-  "description": "This is an example configuration for the SSH homebridge plugin",
+  "description": "This is an example configuration for the AKNord homebridge plugin",
 
   "accessories": [
     {
-      "accessory": "TCP",
-      "name": "Zone 7",
-      "on": "*Z7POWER1",
-      "off": "*Z7POWER0",
-      "state": "*Z7POWER?",
-      "on_value" : "#Z7POWER1",
+      "accessory": "AKNorD",
+      "name": "Outlet 1",
+      "on": "PW1",
+      "off": "PW0",
+      "state": "PW?",
+      "temp": "TMP",
+      "power": "PWR",
+      "on_value" : "ON",
       "exact_match": true,
       "host": "192.168.0.22",
       "port": 23
