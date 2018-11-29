@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-tcp",
+  "name": "homebridge-aknord",
   "version": "0.0.1",
   "description": "TCP plugin for Homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
@@ -11,11 +11,11 @@
     "homebridge": ">=0.2.0"
   },
   "author": {
-    "name": "Reece Dantin"
+    "name": "iAmShorty"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reecedantin/homebridge-tcp.git"
+    "url": "https://github.com/iAmShorty/homebridge-aknord.git"
   },
   "dependencies": {
   }
