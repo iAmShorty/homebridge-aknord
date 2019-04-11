@@ -1,22 +1,54 @@
 {
-  "name": "homebridge-aknord",
-  "version": "0.0.1",
-  "description": "TCP plugin for Homebridge: https://github.com/nfarina/homebridge",
-  "license": "ISC",
-  "keywords": [
-    "homebridge-plugin"
-  ],
-  "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
+  "_from": "git+https://github.com/iAmShorty/homebridge-aknord.git",
+  "_id": "homebridge-aknord@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/homebridge-aknord",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/iAmShorty/homebridge-aknord.git",
+    "rawSpec": "https://github.com/iAmShorty/homebridge-aknord.git",
+    "saveSpec": "git+https://github.com/iAmShorty/homebridge-aknord.git",
+    "fetchSpec": "https://github.com/iAmShorty/homebridge-aknord.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/iAmShorty/homebridge-aknord.git#6afa9657ce206d76fdb7f6fb45d3b58836b7c25a",
+  "_spec": "https://github.com/iAmShorty/homebridge-aknord.git",
+  "_where": "/root",
   "author": {
     "name": "iAmShorty"
   },
+  "bugs": {
+    "url": "https://github.com/iAmShorty/homebridge-aknord/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fakegato-history": "^0.5.3",
+    "polling-to-event": "^2.1.0",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27"
+  },
+  "deprecated": false,
+  "description": "TCP plugin for Homebridge: https://github.com/nfarina/homebridge",
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "homepage": "https://github.com/iAmShorty/homebridge-aknord#readme",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "ISC",
+  "name": "homebridge-aknord",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iAmShorty/homebridge-aknord.git"
+    "url": "git+https://github.com/iAmShorty/homebridge-aknord.git"
   },
-  "dependencies": {
-  }
+  "version": "0.0.1"
 }
